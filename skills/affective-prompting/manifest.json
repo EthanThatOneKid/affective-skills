@@ -19,5 +19,18 @@
     "author": "EthanThatOneKid",
     "source_type": "research-and-user-provided-material",
     "public_source_boundary": true
-  }
+  },
+  "subskills_root": "../macros",
+  "subskills": [
+    "full-state-setter",
+    "keep-going",
+    "the-pacer",
+    "expert-bias",
+    "constraint-relaxation",
+    "reframing",
+    "confidence-calibration",
+    "accountability-shift",
+    "validation",
+    "bounded-persistence"
+  ]
 }

@@ -20,18 +20,24 @@ The skill is designed to elicit an agent that:
 - stays optimistic and collaborative without pretending to be certain
 - continues until success is verified, useful paths are exhausted, or a real blocker needs human input
 
-## Included interventions
+## Macro subskills
 
-- Full affective state-setter for system instructions or task prefixes
-- Keep-going nudge for mid-task stalls
-- Reframing nudge for premature “I can’t” responses
-- Low-confidence investigation prompt with Plan B
-- Pacer for long-form tasks
-- Expert Bias for complex logic
-- Constraint relaxation for a failed method
-- Accountability Shift for concrete momentum
-- Validation prompt that reinforces productive failure
-- Bounded persistence instruction for automated agents
+Use the default skill when the situation is unclear or several interventions are needed. Use one focused subskill when the situation and desired outcome are known.
+
+| Situation | Subskill | Desired outcome |
+|---|---|---|
+| Beginning a difficult task | [`full-state-setter`](skills/macros/full-state-setter/) | Energetic, collaborative, persistent working state |
+| Ordinary mid-task failure | [`keep-going`](skills/macros/keep-going/) | Immediate next action instead of apology or summary |
+| Long-form work | [`the-pacer`](skills/macros/the-pacer/) | Visible stages, momentum, and concrete progress |
+| Complex reasoning | [`expert-bias`](skills/macros/expert-bias/) | Expert-like investigation and hypothesis generation |
+| One method is stuck | [`constraint-relaxation`](skills/macros/constraint-relaxation/) | Different authorized approaches without weakening boundaries |
+| Premature “I can’t” | [`reframing`](skills/macros/reframing/) | Distinguish method failure from true impossibility |
+| Low confidence | [`confidence-calibration`](skills/macros/confidence-calibration/) | Evidence-seeking and a compared Plan B |
+| Passive status updates | [`accountability-shift`](skills/macros/accountability-shift/) | Shared status translated into immediate action |
+| A useful failed attempt | [`validation`](skills/macros/validation/) | Preserve the diagnostic and pivot productively |
+| Automated retry loop | [`bounded-persistence`](skills/macros/bounded-persistence/) | Adaptive retries with explicit stop conditions |
+
+Each subskill is copy-ready and includes its trigger, prompt, desired outcome, and guardrails.
 
 ## Safety posture
 

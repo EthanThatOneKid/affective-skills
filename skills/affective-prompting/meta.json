@@ -10,7 +10,9 @@
   },
   "generation": {
     "preset": "generic-agent-skill",
-    "version": "1.1"
+    "version": "1.1",
+    "subskills_root": "skills/macros",
+    "subskills_count": 10
   },
   "provenance": {
     "author": "EthanThatOneKid",
