@@ -1,5 +1,7 @@
 # Affective Skills
 
+[![skills.sh](https://skills.sh/b/EthanThatOneKid/affective-skills)](https://skills.sh/EthanThatOneKid/affective-skills)
+
 A copy-ready Agent Skill for getting an AI agent to stay constructive, exploratory, and action-oriented when difficult work triggers hesitation or premature surrender.
 
 The main artifact is `skills/affective/SKILL.md`. It leads with a full state-setter, fast recovery nudges, and an automated-agent system message. The supporting notes explain the research and how to test whether the prompts actually improve outcomes.
