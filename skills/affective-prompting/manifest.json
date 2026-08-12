@@ -1,0 +1,22 @@
+{
+  "schema_version": "1",
+  "name": "affective-prompting",
+  "display_name": "Affective Prompting",
+  "description": "Use affective and motivational prompting to help an AI agent persist through difficult work while preserving calibration, safety, privacy, and user approval boundaries.",
+  "entrypoints": [
+    {
+      "path": "SKILL.md",
+      "name": "affective-prompting",
+      "description": "Master skill for calibrated persistence and affective prompting."
+    }
+  ],
+  "resources": [
+    "references/macros.md",
+    "references/research.md"
+  ],
+  "provenance": {
+    "author": "EthanThatOneKid",
+    "source_type": "research-and-user-provided-material",
+    "public_source_boundary": true
+  }
+}

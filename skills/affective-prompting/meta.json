@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "id": "skill.affective-prompting",
+  "slug": "affective-prompting",
+  "display_name": "Affective Prompting",
+  "summary": "A calibrated persistence skill for using supportive and motivational prompt structures without bypassing safety, privacy, authorization, or approval boundaries.",
+  "classification": {
+    "category": "Prompting",
+    "tags": ["affective prompting", "motivational prompting", "agent persistence", "calibration", "reasoning"]
+  },
+  "generation": {
+    "preset": "generic-agent-skill",
+    "version": "1.0"
+  },
+  "provenance": {
+    "author": "EthanThatOneKid",
+    "source_type": "research-and-user-provided-material",
+    "sources": [
+      "https://arxiv.org/abs/2307.11760",
+      "https://arxiv.org/abs/2312.11111",
+      "https://arxiv.org/html/2304.09797",
+      "https://arxiv.org/html/2404.10500"
+    ]
+  },
+  "lifecycle": {
+    "status": "active",
+    "version": "v1"
+  }
+}
