@@ -2,9 +2,13 @@
 
 [![skills.sh](https://skills.sh/b/EthanThatOneKid/affective-skills)](https://skills.sh/EthanThatOneKid/affective-skills)
 
-A copy-ready Agent Skill for getting an AI agent to stay constructive, exploratory, and action-oriented when difficult work triggers hesitation or premature surrender.
+A copy-ready set of Agent Skills for helping AI agents keep working when a task gets difficult.
 
-The main artifact is `skills/affective/SKILL.md`. It leads with a full state-setter, fast recovery nudges, and an automated-agent system message. The supporting notes explain the research and how to test whether the prompts actually improve outcomes.
+The idea is simple: encouragement can keep an agent from treating its first failed attempt as a reason to stop. This project turns that informal “keep going” tactic into a modular, situation-aware, bounded prompt methodology. Each macro pairs an affective cue with a specific behavior: take the next action, change methods, investigate missing evidence, verify the result, or report a real blocker.
+
+Anthropic has described a related mathematical investigation in which repeated “keep going” and “believe in yourself” prompts seemed to help Claude continue after its initial ideas failed. `affective-skills` packages that kind of encouragement into short, reusable skills with explicit outcomes, guardrails, and stop conditions.
+
+The main entrypoint is `skills/affective/SKILL.md`. Use it when the situation is unclear, or use one of the focused `affective-*` skills when the failure mode is known.
 
 ## Install
 
@@ -47,7 +51,7 @@ The intended behavior is **persistent but calibrated**. Change the failed method
 
 ## Research position
 
-EmotionPrompt is evidence that selected emotional stimuli can change performance on selected tasks and models. It is not evidence of universal gains, and the intervention should be compared with an equally structured non-affective baseline. See `references/evaluation.md`.
+This is not a claim that encouragement guarantees breakthroughs. EmotionPrompt and related work suggest that emotional wording can change model behavior on some tasks, but the effect depends on the model, prompt, and task. The evaluation protocol compares an affective prompt with an equally structured non-affective baseline, including checks for correctness, calibration, unsafe persistence, and cost.
 
 ## License
 
