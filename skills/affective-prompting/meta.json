@@ -3,14 +3,14 @@
   "id": "skill.affective-prompting",
   "slug": "affective-prompting",
   "display_name": "Affective Prompting",
-  "summary": "A calibrated persistence skill for using supportive and motivational prompt structures without bypassing safety, privacy, authorization, or approval boundaries.",
+  "summary": "Copy-ready prompts for eliciting constructive persistence, exploratory recovery, and concrete progress from an AI agent.",
   "classification": {
     "category": "Prompting",
-    "tags": ["affective prompting", "motivational prompting", "agent persistence", "calibration", "reasoning"]
+    "tags": ["affective prompting", "motivational prompting", "agent persistence", "concrete progress", "calibration"]
   },
   "generation": {
     "preset": "generic-agent-skill",
-    "version": "1.0"
+    "version": "1.1"
   },
   "provenance": {
     "author": "EthanThatOneKid",
@@ -24,6 +24,6 @@
   },
   "lifecycle": {
     "status": "active",
-    "version": "v1"
+    "version": "v1.1"
   }
 }

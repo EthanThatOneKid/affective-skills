@@ -1,8 +1,8 @@
 # Affective Skills
 
-A small Agent Skills library for using affective and motivational prompting without sacrificing truthfulness, calibration, safety, privacy, authorization, or appropriate stopping.
+A copy-ready Agent Skill for getting an AI agent to stay constructive, exploratory, and action-oriented when difficult work triggers hesitation or premature surrender.
 
-This project treats “cheerleading” as a prompt-framing technique, not as a way to override safeguards. It preserves hard boundaries while encouraging an agent to diagnose a failed method, explore a bounded set of alternatives, and verify the result.
+The main artifact is `skills/affective-prompting/SKILL.md`. It leads with a full state-setter, fast recovery nudges, and an automated-agent system message. The supporting notes explain the research and how to test whether the prompts actually improve outcomes.
 
 ## Install
 
@@ -10,30 +10,36 @@ This project treats “cheerleading” as a prompt-framing technique, not as a w
 npx skills add https://github.com/EthanThatOneKid/affective-skills
 ```
 
-## Skill index
+## Desired behavior
 
-| Skill | Scope | Description |
-|---|---|---|
-| [`affective-prompting`](skills/affective-prompting/) | Recovery and persistence | Bounded affective macros, safe reframing, confidence calibration, and evaluation guidance |
+The skill is designed to elicit an agent that:
 
-## Included macros
+- treats setbacks as diagnostics rather than reasons to stop
+- produces the next concrete action instead of only apologizing or summarizing
+- switches methods instead of repeating the same failed attempt
+- stays optimistic and collaborative without pretending to be certain
+- continues until success is verified, useful paths are exhausted, or a real blocker needs human input
 
-- The Pacer for long-form tasks
-- The Expert Bias for complex logic
-- Safe Constraint-Relaxation for a stalled method
-- The Reframing for premature “I can’t” responses
-- Confidence Calibration for uncertain paths
-- Accountability Shift for multi-stage work
-- The Validation for pivoting after a useful failure
-- Bounded Persistence for automated agents
+## Included interventions
 
-## Research position
-
-EmotionPrompt is evidence that selected emotional stimuli can change performance on selected tasks and models. It is not evidence of universal gains, and it does not support telling an agent to ignore constraints or continue without limits. This library therefore pairs motivational language with explicit decomposition, evidence tracking, bounded retries, and appropriate stopping.
+- Full affective state-setter for system instructions or task prefixes
+- Keep-going nudge for mid-task stalls
+- Reframing nudge for premature “I can’t” responses
+- Low-confidence investigation prompt with Plan B
+- Pacer for long-form tasks
+- Expert Bias for complex logic
+- Constraint relaxation for a failed method
+- Accountability Shift for concrete momentum
+- Validation prompt that reinforces productive failure
+- Bounded persistence instruction for automated agents
 
 ## Safety posture
 
-Relax the method, never the boundary. A refusal caused by a safety, privacy, authorization, or approval constraint is not a problem to bypass. The correct response is to identify the boundary and find a safe, authorized alternative.
+The intended behavior is **persistent but calibrated**. Change the failed method, never a safety, privacy, authorization, scope, or approval boundary. Do not use affective prompting to pressure an agent into unsafe actions, fabricated certainty, or indefinite retries.
+
+## Research position
+
+EmotionPrompt is evidence that selected emotional stimuli can change performance on selected tasks and models. It is not evidence of universal gains, and the intervention should be compared with an equally structured non-affective baseline. See `references/evaluation.md`.
 
 ## License
 
