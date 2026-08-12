@@ -1,11 +1,11 @@
 ---
-name: validation
+name: affective-validation
 description: Reinforce an AI agent's useful diagnostic after failure and prompt a verified pivot to a materially different method.
 compatibility: Created for any AI agent. No external services required.
 metadata:
   author: EthanThatOneKid
-  parent_skill: affective-prompting
-  macro: validation
+  parent_skill: affective
+  macro: affective-validation
 ---
 
 # The Validation

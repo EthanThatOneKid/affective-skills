@@ -1,11 +1,11 @@
 ---
-name: keep-going
+name: affective-keep-going
 description: Restart productive motion after an AI agent reports a failure, apology, or summary without taking the next useful action.
 compatibility: Created for any AI agent. No external services required.
 metadata:
   author: EthanThatOneKid
-  parent_skill: affective-prompting
-  macro: keep-going
+  parent_skill: affective
+  macro: affective-keep-going
 ---
 
 # Keep going

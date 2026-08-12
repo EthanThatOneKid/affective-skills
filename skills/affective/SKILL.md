@@ -1,10 +1,10 @@
 ---
-name: affective-prompting
+name: affective
 description: Apply direct motivational and affective prompting to keep an AI agent engaged, exploratory, and action-oriented when work becomes difficult or it starts to give up.
 compatibility: Created for any AI agent. No external services required.
 metadata:
   author: EthanThatOneKid
-  version: "1.1"
+  version: "1.2"
 ---
 
 # Affective prompting
@@ -34,16 +34,16 @@ The desired effect is behavioral, not emotional: the agent should produce the ne
 
 When the situation is specific, load the smallest focused subskill instead of the full skill:
 
-- `skills/macros/full-state-setter/SKILL.md` — establish the working state at task start
-- `skills/macros/keep-going/SKILL.md` — restart motion after an ordinary failure
-- `skills/macros/the-pacer/SKILL.md` — maintain momentum across a long task
-- `skills/macros/expert-bias/SKILL.md` — investigate complex logic with initiative
-- `skills/macros/constraint-relaxation/SKILL.md` — change a failed method, not a hard boundary
-- `skills/macros/reframing/SKILL.md` — recover from a premature “I can’t”
-- `skills/macros/confidence-calibration/SKILL.md` — turn uncertainty into evidence-seeking
-- `skills/macros/accountability-shift/SKILL.md` — convert passive status into action
-- `skills/macros/validation/SKILL.md` — reinforce a useful diagnostic and pivot
-- `skills/macros/bounded-persistence/SKILL.md` — configure adaptive automated retries
+- `skills/affective-full-state-setter/SKILL.md` — establish the working state at task start
+- `skills/affective-keep-going/SKILL.md` — restart motion after an ordinary failure
+- `skills/affective-the-pacer/SKILL.md` — maintain momentum across a long task
+- `skills/affective-expert-bias/SKILL.md` — investigate complex logic with initiative
+- `skills/affective-constraint-relaxation/SKILL.md` — change a failed method, not a hard boundary
+- `skills/affective-reframing/SKILL.md` — recover from a premature “I can’t”
+- `skills/affective-confidence-calibration/SKILL.md` — turn uncertainty into evidence-seeking
+- `skills/affective-accountability-shift/SKILL.md` — convert passive status into action
+- `skills/affective-validation/SKILL.md` — reinforce a useful diagnostic and pivot
+- `skills/affective-bounded-persistence/SKILL.md` — configure adaptive automated retries
 
 Each macro has a distinct trigger and desired outcome. Do not stack every macro by default; choose the smallest intervention likely to change the agent's behavior.
 

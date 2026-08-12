@@ -1,11 +1,11 @@
 ---
-name: expert-bias
+name: affective-expert-bias
 description: Encourage an AI agent to investigate difficult logic as a capable expert who explores the next move instead of surrendering at the first uncertainty.
 compatibility: Created for any AI agent. No external services required.
 metadata:
   author: EthanThatOneKid
-  parent_skill: affective-prompting
-  macro: expert-bias
+  parent_skill: affective
+  macro: affective-expert-bias
 ---
 
 # The Expert Bias

@@ -1,11 +1,11 @@
 ---
-name: full-state-setter
+name: affective-full-state-setter
 description: Set an AI agent's affective working state so it stays energetic, constructive, exploratory, and action-oriented through difficult work.
 compatibility: Created for any AI agent. No external services required.
 metadata:
   author: EthanThatOneKid
-  parent_skill: affective-prompting
-  macro: full-state-setter
+  parent_skill: affective
+  macro: affective-full-state-setter
 ---
 
 # Full state-setter

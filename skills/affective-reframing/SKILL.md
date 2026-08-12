@@ -1,11 +1,11 @@
 ---
-name: reframing
+name: affective-reframing
 description: Reframe a premature AI “I can't” response as a method diagnosis and elicit one authorized alternative attempt.
 compatibility: Created for any AI agent. No external services required.
 metadata:
   author: EthanThatOneKid
-  parent_skill: affective-prompting
-  macro: reframing
+  parent_skill: affective
+  macro: affective-reframing
 ---
 
 # The Reframing

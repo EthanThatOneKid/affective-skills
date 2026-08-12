@@ -1,11 +1,11 @@
 ---
-name: constraint-relaxation
+name: affective-constraint-relaxation
 description: Help an AI agent escape a failed approach by relaxing its method while keeping hard safety, privacy, authorization, scope, and approval boundaries fixed.
 compatibility: Created for any AI agent. No external services required.
 metadata:
   author: EthanThatOneKid
-  parent_skill: affective-prompting
-  macro: constraint-relaxation
+  parent_skill: affective
+  macro: affective-constraint-relaxation
 ---
 
 # Constraint relaxation

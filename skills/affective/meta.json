@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
-  "id": "skill.affective-prompting",
-  "slug": "affective-prompting",
+  "id": "skill.affective",
+  "slug": "affective",
   "display_name": "Affective Prompting",
   "summary": "Copy-ready prompts for eliciting constructive persistence, exploratory recovery, and concrete progress from an AI agent.",
   "classification": {
@@ -10,8 +10,8 @@
   },
   "generation": {
     "preset": "generic-agent-skill",
-    "version": "1.1",
-    "subskills_root": "skills/macros",
+    "version": "1.2",
+    "subskills_root": "skills",
     "subskills_count": 10
   },
   "provenance": {
@@ -26,6 +26,6 @@
   },
   "lifecycle": {
     "status": "active",
-    "version": "v1.1"
+    "version": "v1.2"
   }
 }

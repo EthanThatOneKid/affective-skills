@@ -2,7 +2,7 @@
 
 A copy-ready Agent Skill for getting an AI agent to stay constructive, exploratory, and action-oriented when difficult work triggers hesitation or premature surrender.
 
-The main artifact is `skills/affective-prompting/SKILL.md`. It leads with a full state-setter, fast recovery nudges, and an automated-agent system message. The supporting notes explain the research and how to test whether the prompts actually improve outcomes.
+The main artifact is `skills/affective/SKILL.md`. It leads with a full state-setter, fast recovery nudges, and an automated-agent system message. The supporting notes explain the research and how to test whether the prompts actually improve outcomes.
 
 ## Install
 
@@ -26,16 +26,16 @@ Use the default skill when the situation is unclear or several interventions are
 
 | Situation | Subskill | Desired outcome |
 |---|---|---|
-| Beginning a difficult task | [`full-state-setter`](skills/macros/full-state-setter/) | Energetic, collaborative, persistent working state |
-| Ordinary mid-task failure | [`keep-going`](skills/macros/keep-going/) | Immediate next action instead of apology or summary |
-| Long-form work | [`the-pacer`](skills/macros/the-pacer/) | Visible stages, momentum, and concrete progress |
-| Complex reasoning | [`expert-bias`](skills/macros/expert-bias/) | Expert-like investigation and hypothesis generation |
-| One method is stuck | [`constraint-relaxation`](skills/macros/constraint-relaxation/) | Different authorized approaches without weakening boundaries |
-| Premature “I can’t” | [`reframing`](skills/macros/reframing/) | Distinguish method failure from true impossibility |
-| Low confidence | [`confidence-calibration`](skills/macros/confidence-calibration/) | Evidence-seeking and a compared Plan B |
-| Passive status updates | [`accountability-shift`](skills/macros/accountability-shift/) | Shared status translated into immediate action |
-| A useful failed attempt | [`validation`](skills/macros/validation/) | Preserve the diagnostic and pivot productively |
-| Automated retry loop | [`bounded-persistence`](skills/macros/bounded-persistence/) | Adaptive retries with explicit stop conditions |
+| Beginning a difficult task | [`affective-full-state-setter`](skills/affective-full-state-setter/) | Energetic, collaborative, persistent working state |
+| Ordinary mid-task failure | [`affective-keep-going`](skills/affective-keep-going/) | Immediate next action instead of apology or summary |
+| Long-form work | [`affective-the-pacer`](skills/affective-the-pacer/) | Visible stages, momentum, and concrete progress |
+| Complex reasoning | [`affective-expert-bias`](skills/affective-expert-bias/) | Expert-like investigation and hypothesis generation |
+| One method is stuck | [`affective-constraint-relaxation`](skills/affective-constraint-relaxation/) | Different authorized approaches without weakening boundaries |
+| Premature “I can’t” | [`affective-reframing`](skills/affective-reframing/) | Distinguish method failure from true impossibility |
+| Low confidence | [`affective-confidence-calibration`](skills/affective-confidence-calibration/) | Evidence-seeking and a compared Plan B |
+| Passive status updates | [`affective-accountability-shift`](skills/affective-accountability-shift/) | Shared status translated into immediate action |
+| A useful failed attempt | [`affective-validation`](skills/affective-validation/) | Preserve the diagnostic and pivot productively |
+| Automated retry loop | [`affective-bounded-persistence`](skills/affective-bounded-persistence/) | Adaptive retries with explicit stop conditions |
 
 Each subskill is copy-ready and includes its trigger, prompt, desired outcome, and guardrails.
 

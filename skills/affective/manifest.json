@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
-  "name": "affective-prompting",
+  "name": "affective",
   "display_name": "Affective Prompting",
   "description": "Copy-ready prompts for keeping an AI agent constructive, exploratory, and action-oriented through difficult work without sacrificing calibration or boundaries.",
   "entrypoints": [
     {
       "path": "SKILL.md",
-      "name": "affective-prompting",
+      "name": "affective",
       "description": "Primary prompt pack for eliciting calibrated persistence and concrete progress."
     }
   ],
@@ -20,17 +20,17 @@
     "source_type": "research-and-user-provided-material",
     "public_source_boundary": true
   },
-  "subskills_root": "../macros",
+  "subskills_root": "..",
   "subskills": [
-    "full-state-setter",
-    "keep-going",
-    "the-pacer",
-    "expert-bias",
-    "constraint-relaxation",
-    "reframing",
-    "confidence-calibration",
-    "accountability-shift",
-    "validation",
-    "bounded-persistence"
+    "affective-full-state-setter",
+    "affective-keep-going",
+    "affective-the-pacer",
+    "affective-expert-bias",
+    "affective-constraint-relaxation",
+    "affective-reframing",
+    "affective-confidence-calibration",
+    "affective-accountability-shift",
+    "affective-validation",
+    "affective-bounded-persistence"
   ]
 }

@@ -1,11 +1,11 @@
 ---
-name: accountability-shift
+name: affective-accountability-shift
 description: Give an AI agent collaborative urgency and a concrete status loop so it turns a stalled task into immediate, visible next actions.
 compatibility: Created for any AI agent. No external services required.
 metadata:
   author: EthanThatOneKid
-  parent_skill: affective-prompting
-  macro: accountability-shift
+  parent_skill: affective
+  macro: affective-accountability-shift
 ---
 
 # Accountability Shift

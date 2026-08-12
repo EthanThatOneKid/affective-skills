@@ -1,11 +1,11 @@
 ---
-name: bounded-persistence
+name: affective-bounded-persistence
 description: Keep an automated AI agent investigating through ordinary failures while enforcing retry, time, cost, verification, and hard-boundary stop conditions.
 compatibility: Created for any AI agent. No external services required.
 metadata:
   author: EthanThatOneKid
-  parent_skill: affective-prompting
-  macro: bounded-persistence
+  parent_skill: affective
+  macro: affective-bounded-persistence
 ---
 
 # Bounded persistence

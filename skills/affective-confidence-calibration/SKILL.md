@@ -1,11 +1,11 @@
 ---
-name: confidence-calibration
+name: affective-confidence-calibration
 description: Turn low confidence into evidence-seeking behavior by making an AI agent compare a primary path with a Plan B before taking a low-risk next step.
 compatibility: Created for any AI agent. No external services required.
 metadata:
   author: EthanThatOneKid
-  parent_skill: affective-prompting
-  macro: confidence-calibration
+  parent_skill: affective
+  macro: affective-confidence-calibration
 ---
 
 # Confidence calibration

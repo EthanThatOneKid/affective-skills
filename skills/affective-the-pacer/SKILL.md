@@ -1,11 +1,11 @@
 ---
-name: the-pacer
+name: affective-the-pacer
 description: Keep an AI agent moving through a long task by dividing it into small stages with visible progress and next actions.
 compatibility: Created for any AI agent. No external services required.
 metadata:
   author: EthanThatOneKid
-  parent_skill: affective-prompting
-  macro: the-pacer
+  parent_skill: affective
+  macro: affective-the-pacer
 ---
 
 # The Pacer
